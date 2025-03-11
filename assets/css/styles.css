@@ -262,11 +262,6 @@ footer {
   margin-top: 4rem;
 }
 
-#bo-intro-text {
-  font-weight: 500;
-  margin-bottom: 0px;
-}
-
 .bo-subtitle {
   font-size: 26px;
   font-weight: 500;
@@ -274,10 +269,5 @@ footer {
 
 .bo-bodytxt {
   font-weight: 300;
-}
-
-#bo-introduction img {
-  height: auto;
-  /*max-width: 50%;*/
 }
 
