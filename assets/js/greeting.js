@@ -3,14 +3,14 @@ document.addEventListener("DOMContentLoaded", function () {
       if (!greetingElement) return;
 
       const hour = new Date().getHours();
-      let greetingText = "Hello,";
+      let greetingText = "Hello";
 
       if (hour >= 5 && hour < 12) {
-          greetingText = "Good morning,";
+          greetingText = "Good morning";
       } else if (hour >= 12 && hour < 18) {
-          greetingText = "Good afternoon,";
+          greetingText = "Good afternoon";
       } else {
-          greetingText = "Good evening,";
+          greetingText = "Good evening";
       }
 
       greetingElement.textContent = greetingText;

@@ -1,14 +1,10 @@
 body {
   font-family: 'Funnel Sans', sans-serif;
-  background-color: #d4f9f6;
+  background-color: #D7F7F5;
 }
 
 .txt-black {
   color: #242526;
-}
-
-.bo-txt-green {
-  color: #3ad58b;
 }
 
 ::selection {
@@ -20,7 +16,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*color: #fafafa;*/
 }
 
 @media (max-width: 768px) {
@@ -33,6 +28,17 @@ body {
 #contact {
   padding-top: 4rem;
   height: 85vh;
+}
+
+#contact-container {
+  /*direction: ltr;*/
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+}
+
+#contact-link {
+  padding-top: 6rem;
 }
 
 #intro-text-top {
@@ -70,7 +76,7 @@ body {
   }
 }
 
-#contact-text {
+.contact-text {
   color: #242526;
   font-weight: 500;
   font-size: 34px;
@@ -155,11 +161,11 @@ body {
 }
 
 .nav-link {
-  color: #F24C3D;
+  color: #F73859;
 }
 
 .nav-link:hover {
-  color: #4337c3;
+  color: #574bde;
 }
 
 .navbar-toggler.collapsed .middle-bar {
@@ -232,6 +238,10 @@ footer {
 }
 
 /* bonsai */
+
+.bo-txt-green {
+  color: #3ad58b;
+}
 
 #bo-display {
   font-family: 'Nunito';
