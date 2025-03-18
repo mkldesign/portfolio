@@ -1,6 +1,6 @@
 body {
   font-family: 'Funnel Sans', sans-serif;
-  background-color: #D7F7F5;
+  background-color: #a8efea;
 }
 
 .txt-black {
@@ -28,17 +28,6 @@ body {
 #contact {
   padding-top: 4rem;
   height: 85vh;
-}
-
-#contact-container {
-  /*direction: ltr;*/
-  /*display: flex;*/
-  /*justify-content: center;*/
-  /*align-items: center;*/
-}
-
-#contact-link {
-  padding-top: 6rem;
 }
 
 #intro-text-top {
@@ -83,13 +72,11 @@ body {
   line-height: 40px;
 }
 
-@media (max-width: 768px) {
-  #contact-text {
-    color: #242526;
-    font-weight: 500;
-    font-size: 31px;
-    line-height: 36px;
-  }
+#contact-list {
+  color: #F73859;
+  display: flex;
+  justify-content: space-between;
+  /*margin-bottom: 0px;*/
 }
 
 /* navbar styles */
@@ -239,25 +226,24 @@ footer {
 
 /* bonsai */
 
-.bo-txt-green {
-  color: #3ad58b;
-}
-
 #bo-display {
   font-family: 'Nunito';
   color: #3AD58B;
-  /*text-shadow: 1px 1px 1px #8fedc0;*/
+}
+
+#bo-display-p {
+  font-family: 'Nunito;
 }
 
 #bo-home {
-  height: 50vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   /*background: rgb(143,237,192);*/
   /*background: radial-gradient(circle, rgba(143,237,192,1) 0%, rgba(250,250,250,1) 88%);*/
-  /*background: url("../../assets/img/ffflux.svg");*/
+  /*background: url("ffflux.svg");*/
   /*background-size: cover;*/
   /*background-position: right;*/
   /*background-repeat: no-repeat;*/
