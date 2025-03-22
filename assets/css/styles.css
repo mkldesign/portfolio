@@ -1,6 +1,6 @@
 body {
   font-family: 'Funnel Sans', sans-serif;
-  background-color: #a8efea;
+  background-color: #cfe8fc;
 }
 
 .txt-black {
@@ -82,7 +82,7 @@ body {
 }
 
 #contact-list li:nth-child(1) {
-  color: #F73859;
+  color: #ed5858;
 }
 
 /* navbar styles */
@@ -154,7 +154,7 @@ body {
 }
 
 .nav-link {
-  color: #F73859;
+  color: #ed5858;
 }
 
 .nav-link:hover {
@@ -241,6 +241,14 @@ footer {
   font-family: 'Nunito;
 }
 
+.bo-nav-link {
+  color: #242526;
+}
+
+.bo-nav-link:hover {
+  color: #3AD58B;
+}
+
 #bo-home {
   height: 80vh;
   display: flex;
@@ -257,6 +265,12 @@ footer {
 
 .bo-row {
   margin-top: 4rem;
+}
+
+@media (max-width: 992px) {
+  .bo-img-col {
+    margin-top: 2rem;
+  }
 }
 
 .bo-subtitle {
