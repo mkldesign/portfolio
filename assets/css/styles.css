@@ -89,12 +89,15 @@ body {
 
 .navbar {
   padding: 1rem;
+  z-index: 1050;
+  /*outline: 1px solid red;*/
 }
 
 .navbar-toggler {
   border: 0 !important;
   float: right;
   pointer-events: auto;
+  /*outline: 1px solid red;*/
 }
 
 .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {

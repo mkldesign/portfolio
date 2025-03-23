@@ -11,10 +11,9 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body style="background: url(&quot;assets/img/nnnoise%20(2).png&quot;);"><nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+<body style="background: url(&quot;assets/img/nnnoise%20(2).png&quot;); margin-bottom:2rem;"><nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.html" style="font-size: 32px; font-weight: 500; color: #242526;">MK</a>
-
+        <a href="index.html" class="navbar-brand me-auto nav-item" style="font-size: 32px; font-weight: 500; color: #242526;">MK</a>
         <button class="navbar-toggler collapsed ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="toggler-icon top-bar"></span>
@@ -52,14 +51,14 @@
             <div class="row bo-row">
                 <div class="col-md-10 col-lg-8 col-xl-6 col-xxl-6 offset-md-1 offset-lg-2 offset-xl-3 offset-xxl-3">
                     <h1 class="bo-subtitle">The problem</h1>
-                    <p class="bo-bodytxt">Many people struggle to identify species quickly and accurately. Existing apps are often cluttered with ads, complex interfaces, and unnecessary features. Users want a simple and user-friendly solution for plant identification that is easy to use.</p>
+                    <p class="bo-bodytxt">Today many people struggle to identify species quickly and accurately. Existing apps are often cluttered with ads, complex interfaces, and unnecessary features. Users want a simple and user-friendly solution for plant identification that is easy to use.</p>
                     <p class="bo-bodytxt">While designing bonsai, the goal was to create a straightforward and intuitive plant identification experience. </p>
                 </div>
             </div>
             <div class="row bo-row">
                 <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 col-xxl-6 offset-md-1 offset-lg-2 offset-xl-3 offset-xxl-3">
                     <h1 class="bo-subtitle">UX research</h1>
-                    <p class="bo-bodytxt">To better understand user needs, I conducted a survey on plant identification apps while designing bonsAI, informed by the feedback of 30 users aged 18-35:</p>
+                    <p class="bo-bodytxt">To better understand user needs, I conducted a survey on plant identification apps while designing bonsai, informed by the feedback of 30 users aged 18-35:</p>
                     <p class="bo-bodytxt"><strong>How often do you struggle to identify plants?</strong><br>Several times a week – 42%<br>Once a month – 38%<br>Rarely – 20%<br><br><strong>What matters most in a plant ID app?</strong><br>Accuracy –&nbsp;<strong>70%</strong><br>Speed –&nbsp;<strong>21%</strong><br>Design –&nbsp;<strong>9%</strong><br><br><strong>Biggest frustration with existing apps?</strong><br>Ads –&nbsp;38%<br>Built-in purchases –&nbsp;30%<br>Unnecessary features –&nbsp;20%</p>
                 </div>
             </div>
@@ -71,7 +70,7 @@
             <div class="row bo-row">
                 <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 col-xxl-6 offset-md-1 offset-lg-2 offset-xl-3 offset-xxl-3">
                     <h1 class="bo-subtitle">Persona</h1>
-                    <p class="bo-bodytxt">Based on the gathered data, the personas presented here will help in understanding the target audience for the BonsAI app.</p>
+                    <p class="bo-bodytxt">Based on the gathered data, the personas presented here will help in understanding the target audience for the bonsai app.</p>
                 </div>
             </div>
             <div class="row bo-row">
@@ -102,7 +101,7 @@
             <div class="row bo-row">
                 <div class="col-md-10 col-lg-8 col-xl-6 col-xxl-6 offset-md-1 offset-lg-2 offset-xl-3 offset-xxl-3">
                     <p class="bo-bodytxt">Let's focus on the main function of the bonsai app – scanning plants using the smartphone camera. After clicking the main button on the main screen, the app will open the camera (provided the user has granted permission in the settings).</p>
-                    <p class="bo-bodytxt">The camera view is designed to resemble the default camera apps on smartphones, ensuring that users can quickly understand the function of each button. The capture button is centrally positioned for taking a photo. On either side, there are buttons for switching between the front and rear camera and selecting an image from the gallery, which also requires user permission.</p>
+                    <p class="bo-bodytxt">The camera view will be designed to resemble the default camera apps on smartphones, ensuring that users can quickly understand the function of each button. The capture button will be centrally positioned for taking a photo. On either side, there will be buttons for switching between the front and rear camera and selecting an image from the gallery, which also requires user permission.</p>
                 </div>
             </div>
             <div class="row bo-row">
@@ -118,47 +117,39 @@
                     <p class="bo-bodytxt">And this is where the computational magic begins. The backend artificial intelligence algorithms process the data provided by the user. Once the algorithm identifies and classifies the plant, the user is taken to a view displaying information about the scanned plant.<br><br>The plant information screen will feature its image at the top, occupying approximately 40% of the screen. This allows the user to easily verify whether the correct plant has been identified. Below the image, both the common and Latin names of the plant will be displayed. The majority of the screen will be dedicated to detailed plant information. Directly beneath the names, three quick care tips will be shown, helping the user understand how to properly care for the plant. The user will be able to see how much water, what temperature, and how much light the scanned plant requires.</p>
                 </div>
             </div>
-            <div class="row bo-row" id="bo-rdesign-5">
+            <div class="row bo-row">
                 <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-4 col-xxl-4 offset-md-1 offset-lg-2 offset-xl-4 offset-xxl-4" style="display:flex;align-items:center;justify-content:center;"><img id="bo-wf-3" src="assets/img/bo-wf-4.svg" width="auto" height="462"></div>
             </div>
-            <div class="row bo-row" id="bo-rdesign-6">
+            <div class="row bo-row">
                 <div class="col-md-10 col-lg-8 col-xl-6 col-xxl-6 offset-md-1 offset-lg-2 offset-xl-3 offset-xxl-3">
                     <p class="bo-bodytxt">If the user wants to learn more about the plant, a link to the online plant database will be available. At the bottom of the screen, there will be a button allowing the user to quickly add the plant to their favourites (or custom) list. This ensures that if the user owns the plant at home, they won’t have to scan it repeatedly.</p>
                 </div>
             </div>
-            <div class="row bo-row" id="bo-rdesign-7">
+            <div class="row bo-row">
                 <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-4 col-xxl-3 offset-md-1 offset-lg-2 offset-xl-2 offset-xxl-3" style="display:flex;align-items:center;justify-content:center;"><img id="bo-wf-5" src="assets/img/bo-wf-5.svg" width="auto" height="462"></div>
                 <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-4 col-xxl-3 offset-md-1 offset-lg-2 offset-xl-0 offset-xxl-0 bo-img-col" style="display:flex;align-items:center;justify-content:center;"><img id="bo-wf-6" src="assets/img/bo-wf-6.svg" width="auto" height="462"></div>
             </div>
-            <div class="row bo-row" id="bo-rdesign-8">
+            <div class="row bo-row">
                 <div class="col-md-10 col-lg-8 col-xl-6 col-xxl-6 offset-md-1 offset-lg-2 offset-xl-3 offset-xxl-3">
                     <p class="bo-bodytxt">Additional functionalities will include searching for a plant directly in the database by name and creating a new list.&nbsp;This layout should enable the creation of a simple yet clear and easy-to-navigate interface.</p>
                 </div>
             </div>
-            <div class="row bo-row" id="bo-research-2">
+            <div class="row bo-row">
                 <div class="col-12 col-md-10 col-lg-8 col-xl-6 col-xxl-6 offset-md-1 offset-lg-2 offset-xl-3 offset-xxl-3">
                     <h1 class="bo-subtitle">Visual design</h1>
-                    <p class="bo-bodytxt">The foundation of the application has been successfully built, and now it's time to design the actual interfaces.&nbsp;<br><br>The app's logo was created using the Nunito font, due to its light and clean style.&nbsp;To maintain design consistency, the body text will use the Nunito Sans font.&nbsp;I decided to stick with just these two related fonts to avoid having too many, which could complicate the app's readability.</p>
-                </div>
-                <div class="col-12 col-md-10 col-lg-8 col-xl-6 col-xxl-6 offset-md-1 offset-lg-2 offset-xl-3 offset-xxl-3">
-                    <p class="bo-bodytxt">To emphasize the plant-related theme, the app will feature shades of green.&nbsp;This color palette combines freshness and elegance with a natural touch. The vibrant green (#3AD58B) adds energy, while the soft minty shade (#9CDBB6) brings a sense of calm. The light, almost white tone (#F0FBF6) creates a clean and airy feel, while the deep, nearly black hue (#0D0907) adds contrast and sophistication.</p>
+                    <p class="bo-bodytxt">The foundation of the application has been successfully built, and now it's time to design the actual interfaces.&nbsp;<br><br>The app's logo was created using the Nunito font, due to its light and clean style.&nbsp;To maintain design consistency, the body text will use the Nunito Sans font.&nbsp;I decided to stick with just these two related fonts to avoid having too many, which could complicate the readability.<br><br>To emphasize the plant-related theme, the app will feature shades of green.&nbsp;This color palette combines freshness and elegance with a natural touch. The vibrant green (#3AD58B) adds energy, while the soft minty shade (#9CDBB6) brings a sense of calm. The light, almost white tone (#F0FBF6) creates a clean and airy feel, while the deep, nearly black hue (#0D0907) used for text adds contrast and sophistication.</p>
                 </div>
             </div>
-            <div class="row bo-row" id="bo-rdesign-9">
+            <div class="row bo-row">
                 <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-3 col-xxl-3 offset-md-1 offset-lg-2 offset-xl-0 offset-xxl-0" style="display:flex;align-items:center;justify-content:center;"><img id="bo-wf-7" src="assets/img/bo-mo-1.svg" width="auto" height="462"></div>
                 <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-3 col-xxl-3 offset-md-1 offset-lg-2 offset-xl-0 offset-xxl-0 bo-img-col" style="display:flex;align-items:center;justify-content:center;"><img id="bo-wf-8" src="assets/img/bo-mo-2.svg" width="auto" height="462"></div>
                 <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-3 col-xxl-3 offset-md-1 offset-lg-2 offset-xl-0 offset-xxl-0 bo-img-col" style="display:flex;align-items:center;justify-content:center;"><img id="bo-wf-10" src="assets/img/bo-mo-3.svg" width="auto" height="462"></div>
                 <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-3 col-xxl-3 offset-md-1 offset-lg-2 offset-xl-0 offset-xxl-0 bo-img-col" style="display:flex;align-items:center;justify-content:center;"><img id="bo-wf-9" src="assets/img/bo-mo-4.svg" width="233" height="462"></div>
             </div>
-            <div class="row bo-row" id="bo-research-7">
+            <div class="row bo-row">
                 <div class="col-12 col-md-10 col-lg-8 col-xl-6 col-xxl-6 offset-md-1 offset-lg-2 offset-xl-3 offset-xxl-3">
                     <h1 class="bo-subtitle">Project conclusion</h1>
-                    <p class="bo-bodytxt">The bonsAI app project is a great example of how simple things can solve a complex problem.&nbsp;The project focused on creating a clear and intuitive design, ensuring that the app is easy to use without unnecessary complications.&nbsp;During development, a strong emphasis was placed on clarity and ease of use, ensuring that users could interact with the app effortlessly.<br><br>Overall, bonsai proves that technology can simplify everyday tasks. The project lays a strong foundation for further improvements, such as adding new features to enhance the user experience.</p>
-                </div>
-            </div>
-            <div class="row bo-row" id="bo-rdesign-10">
-                <div class="col-md-10 col-lg-8 col-xl-6 col-xxl-6 offset-md-1 offset-lg-2 offset-xl-3 offset-xxl-3">
-                    <p class="bo-bodytxt"></p>
+                    <p class="bo-bodytxt">The bonsai app project is a great example of how simple things can solve a complex problem.&nbsp;The project focused on creating a clear and intuitive design, ensuring that the app is easy to use without unnecessary complications.&nbsp;During development, a strong emphasis was placed on clarity and ease of use, ensuring that users could interact with the app effortlessly.<br><br>Overall, bonsai proves that technology can simplify everyday tasks. The project lays a strong foundation for further improvements, such as adding new features to enhance the user experience.</p>
                 </div>
             </div>
         </div>
