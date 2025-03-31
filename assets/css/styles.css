@@ -74,16 +74,20 @@ body {
 }
 
 #contact-list {
-  display: flex;
-  justify-content: space-between;
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   padding-top: 12rem;
   font-weight: 500;
   font-size: 34px;
   line-height: 40px;
+  /*margin-right: 0px;*/
+  /*float: left;*/
 }
 
 #contact-list li:nth-child(1) {
-  color: #006769;
+  color: #20948B;
 }
 
 /* navbar styles */
@@ -92,6 +96,24 @@ body {
   padding: 1rem;
   z-index: 1050;
   /*outline: 1px solid red;*/
+}
+
+#brand-txt {
+  color: #242526;
+}
+
+#bo-brand-txt {
+  color: #242526;
+}
+
+#bo-brand-txt:hover {
+  color: #3AD58B;
+  transition: 0.2s;
+}
+
+#brand-txt:hover {
+  color: #20948B;
+  transition: 0.2s;
 }
 
 .navbar-toggler {
@@ -162,7 +184,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #574bde;
+  color: #d84040;
 }
 
 .navbar-toggler.collapsed .middle-bar {
