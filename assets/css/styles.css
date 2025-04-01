@@ -9,12 +9,21 @@
 
 body {
   font-family: 'Funnel Sans', sans-serif;
-  background-color: ghostwhite;
-  animation: fadeIn 0.1s ease-in-out;
+  background-color: #F2F9FF;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 .txt-black {
   color: #242526;
+}
+
+.txt-link {
+  color: #242526;
+  width: fit-content;
+}
+
+.txt-link:hover {
+  color: #20948B;
 }
 
 ::selection {
@@ -128,6 +137,10 @@ body {
 
 #sa-brand-txt {
   color: #3F979D;
+}
+
+#sa-brand-txt:hover {
+  color: #A43E37;
 }
 
 .navbar-toggler {
@@ -267,7 +280,7 @@ body {
 
 footer {
   height: 10vh;
-  background: #fafafa;
+  background: #ffffff;
 }
 
 /* bonsai */
@@ -318,6 +331,10 @@ footer {
 
 .sa-nav-link {
   color: #3F979D;
+}
+
+li {
+  width: fit-content;
 }
 
 .sa-nav-link:hover {
