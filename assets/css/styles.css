@@ -10,6 +10,10 @@
 body {
   font-family: 'Funnel Sans', sans-serif;
   background-color: #F2F9FF;
+  /*animation: fadeIn 0.5s ease-in-out;*/
+}
+
+.body-anim {
   animation: fadeIn 0.5s ease-in-out;
 }
 
