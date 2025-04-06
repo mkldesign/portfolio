@@ -43,7 +43,7 @@ body {
 
 @media (max-width: 768px) {
   #home {
-    padding-top: 4rem;
+    padding-top: 6rem;
     height: 95vh;
   }
 }
@@ -300,10 +300,12 @@ footer {
 #bo-display {
   font-family: 'Nunito';
   color: #3AD58B;
+  /*background: url('../../assets/img/wwwatercolor.webp') center center;*/
 }
 
 #bo-display-p {
-  font-family: 'Nunito;
+  font-family: 'Nunito';
+  font-weight: 500;
 }
 
 .bo-nav-link {
