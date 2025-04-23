@@ -174,7 +174,6 @@ body {
   border: 0 !important;
   float: right;
   pointer-events: auto;
-  /*outline: 1px solid red;*/
 }
 
 .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
@@ -369,5 +368,27 @@ li {
 
 .sa-nav-link:hover {
   color: #A43E37;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav .nav-item {
+    margin-bottom: 1rem;
+  }
 }
 
