@@ -56,7 +56,7 @@ body {
 
 @media (max-width: 768px) {
   #about {
-    padding-top: 6rem;
+    padding-top: 12rem;
     /*height: 95vh;*/
   }
 }
