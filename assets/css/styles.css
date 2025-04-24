@@ -58,6 +58,7 @@ body {
   #about {
     padding-top: 12rem;
     /*height: 95vh;*/
+    /*margin-bottom: 6rem;*/
   }
 }
 
@@ -122,19 +123,15 @@ body {
   /*float: left;*/
 }
 
+@media (max-width: 768px) {
+  #cv-down {
+    margin-bottom: 6rem;
+  }
+}
+
 @media (max-width: 360px) {
   #contact-list {
     font-size: 24px;
-    /*display: block;*/
-    /*list-style-type: none;*/
-    /*margin: 0;*/
-    /*padding: 0;*/
-    /*padding-top: 12rem;*/
-    /*font-weight: 500;*/
-    /*font-size: 34px;*/
-    /*line-height: 40px;*/
-    /*margin-right: 0px;*/
-    /*float: left;*/
   }
 }
 
