@@ -169,6 +169,7 @@ body {
 
 #sa-brand-txt:hover {
   color: #A43E37;
+  transition: 0.2s;
 }
 
 .navbar-toggler {
@@ -317,11 +318,6 @@ footer {
   font-family: 'Nunito';
   color: #3AD58B;
   /*background: url('../../assets/img/wwwatercolor.webp') center center;*/
-}
-
-#bo-display-p {
-  font-family: 'Nunito';
-  font-weight: 500;
 }
 
 .bo-nav-link {
